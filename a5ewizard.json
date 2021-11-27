@@ -524,7 +524,7 @@
 					"gainSubclassFeature": true
 				},
 				"Cantrip Formulas|Wizard||3|TCE",
-                "Scholarly Excellence|Wizard||3",
+                "Scholarly Excellence|A5E:Wizard||3",
 				"Ability Score Improvement|Wizard||4",
 				"Proficiency Versatility|Wizard||4|UAClassFeatureVariants",
 				{
@@ -1249,7 +1249,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.",
+				"Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th-level or higher.",
 				"For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots.",
 				"You can recover either a 2nd-level spell slot or two 1st-level spell slots."
 			]
@@ -1421,6 +1421,19 @@
 			"classSource": "PHB",
 			"level": 3,
 			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 3rd-level wizard {@variantrule optional class features|tce|optional feature}}",
+				"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list."
+			]
+		},
+        {
+			"name": "Scholarly Excellence",
+			"source": "LevelUP",
+			"page": 292,
+			"className": "Wizard",
+			"classSource": "A5E",
+			"level": 3,
+			"isClassFeatureVariant": false,
 			"entries": [
 				"{@i 3rd-level wizard {@variantrule optional class features|tce|optional feature}}",
 				"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list."
