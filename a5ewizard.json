@@ -1428,10 +1428,10 @@
 		},
         {
 			"name": "Scholarly Excellence",
-			"source": "LevelUP",
+			"source": "A5E:Wizard",
 			"page": 292,
-			"className": "Wizard",
-			"classSource": "A5E",
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
 			"level": 3,
 			"isClassFeatureVariant": false,
 			"entries": [
