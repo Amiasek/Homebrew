@@ -4,7 +4,13 @@
 			"subclass": [
 				"generic"
 			]
-		}
+		},
+        "sources": [
+            {
+                "json": "A5E:Wizard",
+                "abbreviation": "A5E:Wizard"
+            }
+        ]
 	},
 	"class": [
 		{
@@ -207,11 +213,41 @@
 				},
                 {
 					"colLabels": [
-						"Test :D"
+						"Studies Known"
 					],
 					"rows": [
 						[
-							3
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
 						],
 						[
 							3
@@ -220,7 +256,10 @@
 							3
 						],
 						[
-							4
+							3
+						],
+						[
+							3
 						],
 						[
 							4
@@ -233,39 +272,6 @@
 						],
 						[
 							4
-						],
-						[
-							4
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							5
 						],
 						[
 							5
@@ -518,6 +524,7 @@
 					"gainSubclassFeature": true
 				},
 				"Cantrip Formulas|Wizard||3|TCE",
+                "Scholarly Excellence|Wizard||3",
 				"Ability Score Improvement|Wizard||4",
 				"Proficiency Versatility|Wizard||4|UAClassFeatureVariants",
 				{
