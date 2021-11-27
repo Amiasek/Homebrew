@@ -885,11 +885,11 @@
 		
 			"subclassFeatures": [
                 "Broad Knowledge|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|2",				
-                "Flexibe Thinking|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|2",
+                "Flexible Thinking|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|2",
 				"Flux|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|6",
 				"Fluent Control|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|10"
 			]
-		},		
+		}		
 	],
 	"classFeature": [
 		{
