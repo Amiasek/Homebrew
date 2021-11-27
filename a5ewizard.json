@@ -14,7 +14,7 @@
 	},
 	"class": [
 		{
-			"name": "Wizard",
+			"name": "Wizard2",
 			"source": "A5E:Wizard",
 			"page": 287,
 			"srd": false,
@@ -524,7 +524,7 @@
 					"gainSubclassFeature": true
 				},
 				"Cantrip Formulas|Wizard||3|TCE",
-                "Scholarly Excellence|Wizard|A5E:Wizard|3",
+                "Scholarly Excellence|Wizard2|A5E:Wizard|3",
 				"Ability Score Improvement|Wizard||4",
 				"Proficiency Versatility|Wizard||4|UAClassFeatureVariants",
 				{
