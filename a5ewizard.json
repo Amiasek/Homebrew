@@ -1242,9 +1242,9 @@
 	"classFeature": [
 		{
 			"name": "Arcane Recovery",
-			"source": "PHB",
+			"source": "A5E:Wizard",
 			"className": "Wizard2",
-			"classSource": "A5E",
+			"classSource": "A5E:Wizard",
 			"level": 1,
 			"entries": [
 				"Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th-level or higher.",
@@ -1429,12 +1429,18 @@
 			"source": "A5E:Wizard",
 			"page": 292,
 			"className": "Wizard2",
-			"classSource": "A5E",
+			"classSource": "A5E:Wizard",
 			"level": 3,
-			"isClassFeatureVariant": false,
-			"entries": [
-				"{@i 3rd-level wizard {@variantrule optional class features|tce|optional feature}}",
-				"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list."
+			"entries": [				
+				"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.",
+                {
+					"type": "refClassFeature",
+					"subclassFeature": "Arcane Recovery|Wizard2|A5E:Wizard|1"
+				},
+				{
+					"type": "refClassFeature",
+					"subclassFeature": "Arcane Recovery|Wizard2|A5E:Wizard|1"
+				}
 			]
 		},
 		{
