@@ -1508,11 +1508,31 @@
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Ritual Efficiency|Wizard2|A5E:Wizard|3"
+					"classFeature": "Detect Magic Savant|Wizard2|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Rote Memorization|Wizard2|A5E:Wizard|3"
+					"classFeature": "Eidetic Memory|Wizard2|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Illusion Detective|Wizard2|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Loremaster of Creatures|Wizard2|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Loremaster of Travel|Wizard2|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Persisitng Mending|Wizard2|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Presto, Prestidigitation!|Wizard2|A5E:Wizard|4"
 				}
 			]
 		},
@@ -1533,11 +1553,58 @@
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
-				"Prerequisite: Able to cast {@spell detect magic}"
+				"Prerequisite: Able to cast {@spell detect magic}",
+                "Whenever you cast detect magic, you can choose one of the following benefits to amplify the spell.",
+                "Lengthened Detect Magic. The duration of detect magic is increased by 10 minutes.",
+                "Extended Detect Magic. The detection radius of detect magic is increased by 30 feet.",
+                "Penetrating Detect Magic. The spell can penetrate most barriers, and it is only blocked by 2 feet of stone, 2 inches of common metal, a 1-inch sheet of lead, or 6 feet of wood or dirt."
 			]
 		},
         {
-			"name": "Air Lift",
+			"name": "Eidetic Memory",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"Your memory is nearly perfect. You can accurately recall anything you’ve read or seen in the past month. Additionally, when retreading a travel route you’ve traveled in the past month, you have advantage on ability checks made against environmental hazards on that route, unless the landscape has been significantly altered in that time."
+			]
+		},
+        {
+			"name": "Illusion Detective",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+                "Prerequisite: At least one illusion spell in your spellbook.",
+                "You have advantage on Investigation checks and Intelligence saving throws made against illusion. When you succeed on an ability check or saving throw to see through an illusion, all allies within 30 feet of you gain advantage on checks to see through that illusion for the next minute."
+			]
+		},
+        {
+			"name": "Loremaster of Creatures",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"You are well-studied on naturally occurring creatures of the world. When you choose this study, choose one creature type: beasts, constructs, dragons, elementals, fey, fiends, giants, oozes, plants, or undead. This creature type becomes your Loremaster Creature Specialty.", 
+                "When you encounter a creature of the same type as your Loremaster Creature Specialty, you automatically know any history, legends, or myths related to it. You have advantage on History checks to recall information, myths, and legends that are related to that creature."
+			]
+		},
+        {
+			"name": "Loremaster of Travel",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"You are well-travelled and well-studied. You have advantage on History checks to recall information relating to myths and legends that are location-based. In addition, when you arrive at a settlement for the first time, choose one of the following subjects: culture, etiquette, government, or populace.",
+                "The Narrator will give you a useful fact about that subject. You can take an expertise die on ability checks related to that subject in this settlement."
+			]
+		},
+        {
+			"name": "Persisitng Mending",
 			"source": "A5E:Wizard",			
 			"className": "Wizard2",
 			"classSource": "A5E:Wizard",
@@ -1546,6 +1613,16 @@
 				""
 			]
 		},
+        {
+			"name": "Presto, Prestidigitation!",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				""
+			]
+		}, 
 		{
 			"name": "Proficiency Versatility",
 			"source": "UAClassFeatureVariants",
