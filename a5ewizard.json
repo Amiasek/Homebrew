@@ -528,16 +528,19 @@
 				"Ability Score Improvement|Wizard||4",
                 "Elective Studies|Wizard2|A5E:Wizard|4",
 				"Proficiency Versatility|Wizard||4|UAClassFeatureVariants",
+                "Signature Spell (1st level)|Wizard2|A5E:Wizard|5",
 				{
 					"classFeature": "Arcane Tradition feature|Wizard||6",
 					"gainSubclassFeature": true
 				},
+                "Spell Study|Wizard2|A5E:Wizard|7",
 				"Ability Score Improvement|Wizard||8",
 				"Proficiency Versatility|Wizard||8|UAClassFeatureVariants",
 				{
 					"classFeature": "Arcane Tradition feature|Wizard||10",
 					"gainSubclassFeature": true
 				},
+                "Signature Spell (2nd level)|Wizard2|A5E:Wizard|11",
 				"Ability Score Improvement|Wizard||12",
 				"Proficiency Versatility|Wizard||12|UAClassFeatureVariants",
 				{
@@ -545,11 +548,10 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Wizard||16",
-				"Proficiency Versatility|Wizard||16|UAClassFeatureVariants",
-				"Spell Mastery|Wizard||18",
+				"Proficiency Versatility|Wizard||16|UAClassFeatureVariants",	
+                "Signature Spell (3rd level)|Wizard2|A5E:Wizard|17",			
 				"Ability Score Improvement|Wizard||19",
-				"Proficiency Versatility|Wizard||19|UAClassFeatureVariants",
-				"Signature Spells|Wizard||20"
+				"Proficiency Versatility|Wizard||19|UAClassFeatureVariants"				
 			],
 			"subclassTitle": "Arcane Tradition",
 			"fluff": [
