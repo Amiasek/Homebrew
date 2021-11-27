@@ -520,7 +520,7 @@
 				"Spellcasting|Wizard||1",
 				"Cantrip Versatility|Wizard||1|UAClassFeatureVariants",
 				{
-					"classFeature": "Arcane Tradition|Wizard||2",
+					"classFeature": "Arcane Tradition|Wizard2|A5E:Wizard|2",
 					"gainSubclassFeature": true
 				},
 				"Cantrip Formulas|Wizard||3|TCE",
@@ -1046,11 +1046,9 @@
 		},
 		{
 			"name": "Arcane Tradition",
-			"source": "PHB",
-			"page": 112,
-			"srd": true,
-			"className": "Wizard",
-			"classSource": "PHB",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
 			"level": 2,
 			"entries": [
 				"When you reach 2nd level, you choose an arcane tradition from the list of available traditions, shaping your practice of magic. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
