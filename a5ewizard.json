@@ -1491,6 +1491,60 @@
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 			]
 		},
+        {
+			"name": "Elective Studies",
+			"source": "A5E:Wizard",
+			"page": 292,
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [				
+				"Your study of magic has uncovered unique ways to explore the world. At 4th level you gain one elective study of your choice.", 
+                "The Studies Known column of the Wizard table shows when you learn more elective studies. Unless otherwise noted, you can gain each study only once.",
+                {
+					"type": "refClassFeature",
+					"classFeature": "Air Lift|Wizard2|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Ritual Efficiency|Wizard2|A5E:Wizard|3"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Rote Memorization|Wizard2|A5E:Wizard|3"
+				}
+			]
+		},
+        {
+			"name": "Air Lift",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"You can use an action to increase your vertical jump distance to 15 feet until the end of your turn. When you jump in this way, you can also glide with the updraft, allowing you to move 10 feet horizontally for every 5 feet you descend vertically."
+			]
+		},
+        {
+			"name": "Detect Magic Savant",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"Prerequisite: Able to cast {@spell detect magic}"
+			]
+		},
+        {
+			"name": "Air Lift",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				""
+			]
+		},
 		{
 			"name": "Proficiency Versatility",
 			"source": "UAClassFeatureVariants",
