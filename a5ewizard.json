@@ -14,7 +14,7 @@
 	},
 	"class": [
 		{
-			"name": "Wizard2",
+			"name": "LU Wizard",
 			"source": "A5E:Wizard",
 			"page": 287,
 			"srd": false,
@@ -516,31 +516,31 @@
 				}
 			],
 			"classFeatures": [
-				"Arcane Recovery|Wizard2|A5E:Wizard|1",
+				"Arcane Recovery|LU Wizard|A5E:Wizard|1",
 				"Spellcasting|Wizard||1",
 				"Cantrip Versatility|Wizard||1|UAClassFeatureVariants",
 				{
-					"classFeature": "Arcane Tradition|Wizard2|A5E:Wizard|2",
+					"classFeature": "Arcane Tradition|LU Wizard|A5E:Wizard|2",
 					"gainSubclassFeature": true
 				},
 				"Cantrip Formulas|Wizard||3|TCE",
-                "Scholarly Excellence|Wizard2|A5E:Wizard|3",
+                "Scholarly Excellence|LU Wizard|A5E:Wizard|3",
 				"Ability Score Improvement|Wizard||4",
-                "Elective Studies|Wizard2|A5E:Wizard|4",
+                "Elective Studies|LU Wizard|A5E:Wizard|4",
 				"Proficiency Versatility|Wizard||4|UAClassFeatureVariants",
-                "Signature Spell (1st level)|Wizard2|A5E:Wizard|5",
+                "Signature Spell (1st level)|LU Wizard|A5E:Wizard|5",
 				{
 					"classFeature": "Arcane Tradition feature|Wizard||6",
 					"gainSubclassFeature": true
 				},
-                "Spell Study|Wizard2|A5E:Wizard|7",
+                "Spell Study|LU Wizard|A5E:Wizard|7",
 				"Ability Score Improvement|Wizard||8",
 				"Proficiency Versatility|Wizard||8|UAClassFeatureVariants",
 				{
 					"classFeature": "Arcane Tradition feature|Wizard||10",
 					"gainSubclassFeature": true
 				},
-                "Signature Spell (2nd level)|Wizard2|A5E:Wizard|11",
+                "Signature Spell (2nd level)|LU Wizard|A5E:Wizard|11",
 				"Ability Score Improvement|Wizard||12",
 				"Proficiency Versatility|Wizard||12|UAClassFeatureVariants",
 				{
@@ -549,7 +549,7 @@
 				},
 				"Ability Score Improvement|Wizard||16",
 				"Proficiency Versatility|Wizard||16|UAClassFeatureVariants",	
-                "Signature Spell (3rd level)|Wizard2|A5E:Wizard|17",			
+                "Signature Spell (3rd level)|LU Wizard|A5E:Wizard|17",			
 				"Ability Score Improvement|Wizard||19",
 				"Proficiency Versatility|Wizard||19|UAClassFeatureVariants"				
 			],
@@ -847,40 +847,32 @@
 	],
 	"subclass": [		
 		{
-			"name": "School of Illusion",
-			"shortName": "Illusion",
-			"source": "PHB",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"page": 118,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"1": [
-							"minor illusion"
-						]
-					}
-				}
-			],
+			"name": "Pyromancer",
+			"shortName": "Pyromancer",
+			"source": "A5E:Wizard",
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"page": 118,	
+		
 			"subclassFeatures": [
-				"School of Illusion|Wizard||Illusion||2",
-				"Malleable Illusions|Wizard||Illusion||6",
-				"Illusory Step|Wizard||Illusion||10",
-				"Illusory Reality|Wizard||Illusion||14"
+                "Cleansing Fire|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|2",
+				"Esoteric Talent|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|2",
+				"Refined Learning|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|6",
+				"Superior Talent|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|10"
 			]
 		},
         {
 			"name": "Arcanist",
 			"shortName": "Arcanist",
 			"source": "A5E:Wizard",
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"page": 118,			
 			"subclassFeatures": [
-				"Schoolarly Speciality|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|2",
-				"Esoteric Talent|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|2",
-				"Refined Learning|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|6",
-				"Superior Talent|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|10"
+				"Schoolarly Speciality|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2",
+				"Rituals of Fire|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2",
+				"Clinging Flames|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6",
+				"Blazing Mastery|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
 			]
 		}		
 	],
@@ -888,7 +880,7 @@
 		{
 			"name": "Arcane Recovery",
 			"source": "A5E:Wizard",
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 1,
 			"entries": [
@@ -1047,7 +1039,7 @@
 		{
 			"name": "Arcane Tradition",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 2,
 			"entries": [
@@ -1071,29 +1063,29 @@
 			"name": "Scholarly Excellence",
 			"source": "A5E:Wizard",
 			"page": 292,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 3,
 			"entries": [				
 				"At 3rd level, you have a particular set of skills that sets you a cut above a novice mage. Choose one of the following:",
                 {
 					"type": "refClassFeature",
-					"classFeature": "Academic|Wizard2|A5E:Wizard|3"
+					"classFeature": "Academic|LU Wizard|A5E:Wizard|3"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Ritual Efficiency|Wizard2|A5E:Wizard|3"
+					"classFeature": "Ritual Efficiency|LU Wizard|A5E:Wizard|3"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Rote Memorization|Wizard2|A5E:Wizard|3"
+					"classFeature": "Rote Memorization|LU Wizard|A5E:Wizard|3"
 				}
 			]
 		},
         {
 			"name": "Academic",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 3,
 			"entries": [
@@ -1104,7 +1096,7 @@
         {
 			"name": "Ritual Efficiency",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 3,
 			"entries": [
@@ -1114,7 +1106,7 @@
         {
 			"name": "Rote Memorization",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 3,
 			"entries": [
@@ -1138,7 +1130,7 @@
 			"name": "Elective Studies",
 			"source": "A5E:Wizard",
 			"page": 292,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [				
@@ -1146,42 +1138,42 @@
                 "The Studies Known column of the Wizard table shows when you learn more elective studies. Unless otherwise noted, you can gain each study only once.",
                 {
 					"type": "refClassFeature",
-					"classFeature": "Air Lift|Wizard2|A5E:Wizard|4"
+					"classFeature": "Air Lift|LU Wizard|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Detect Magic Savant|Wizard2|A5E:Wizard|4"
+					"classFeature": "Detect Magic Savant|LU Wizard|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Eidetic Memory|Wizard2|A5E:Wizard|4"
+					"classFeature": "Eidetic Memory|LU Wizard|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Illusion Detective|Wizard2|A5E:Wizard|4"
+					"classFeature": "Illusion Detective|LU Wizard|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Loremaster of Creatures|Wizard2|A5E:Wizard|4"
+					"classFeature": "Loremaster of Creatures|LU Wizard|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Loremaster of Travel|Wizard2|A5E:Wizard|4"
+					"classFeature": "Loremaster of Travel|LU Wizard|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Persisitng Mending|Wizard2|A5E:Wizard|4"
+					"classFeature": "Persisitng Mending|LU Wizard|A5E:Wizard|4"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Presto, Prestidigitation!|Wizard2|A5E:Wizard|4"
+					"classFeature": "Presto, Prestidigitation!|LU Wizard|A5E:Wizard|4"
 				}
 			]
 		},
         {
 			"name": "Air Lift",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1191,7 +1183,7 @@
         {
 			"name": "Detect Magic Savant",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1210,7 +1202,7 @@
         {
 			"name": "Eidetic Memory",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1220,7 +1212,7 @@
         {
 			"name": "Illusion Detective",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1231,7 +1223,7 @@
         {
 			"name": "Loremaster of Creatures",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1242,7 +1234,7 @@
         {
 			"name": "Loremaster of Travel",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1253,7 +1245,7 @@
         {
 			"name": "Persisitng Mending",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1272,7 +1264,7 @@
         {
 			"name": "Presto, Prestidigitation!",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 4,
 			"entries": [
@@ -1308,7 +1300,7 @@
 			"name": "Signature Spell (1st level)",
 			"source": "A5E:Wizard",
 			"page": 292,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 5,
 			"entries": [				
@@ -1321,7 +1313,7 @@
 			"name": "Signature Spell (2nd level)",
 			"source": "A5E:Wizard",
 			"page": 292,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 11,
 			"entries": [
@@ -1333,7 +1325,7 @@
 			"name": "Signature Spell (3rd level)",
 			"source": "A5E:Wizard",
 			"page": 292,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 17,
 			"entries": [
@@ -1357,29 +1349,29 @@
 			"name": "Spell Study",
 			"source": "A5E:Wizard",
 			"page": 292,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 7,
 			"entries": [
                 "At 7th level, you learn to hone your magic and spells to new power levels thanks to your dedicated studies. Choose one Spell Study that reflects what you have dedicated your arcane studies to. ",
                 {
 					"type": "refClassFeature",
-					"classFeature": "Arcane Objects|Wizard2|A5E:Wizard|7"
+					"classFeature": "Arcane Objects|LU Wizard|A5E:Wizard|7"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Detective Spell Study|Wizard2|A5E:Wizard|7"
+					"classFeature": "Detective Spell Study|LU Wizard|A5E:Wizard|7"
 				},
                 {
 					"type": "refClassFeature",
-					"classFeature": "Fauna and Flora|Wizard2|A5E:Wizard|7"
+					"classFeature": "Fauna and Flora|LU Wizard|A5E:Wizard|7"
 				}
             ]
 		},
         {
 			"name": "Arcane Objects",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 7,
 			"entries": [
@@ -1390,7 +1382,7 @@
         {
 			"name": "Detective Spell Study",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 7,
 			"entries": [
@@ -1401,7 +1393,7 @@
         {
 			"name": "Fauna and Flora",
 			"source": "A5E:Wizard",			
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"level": 7,
 			"entries": [
@@ -1547,7 +1539,7 @@
 			"name": "Schoolarly Speciality",
 			"source": "A5E:Wizard",
 			"page": 115,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1561,7 +1553,7 @@
 			"name": "Esoteric Talent",
 			"source": "A5E:Wizard",
 			"page": 115,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1570,15 +1562,15 @@
 				"Also at 2nd level, you gain one of the following benefits, which represents a minor talent you’ve picked up over the course of your studies.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bend Magic|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|2"
+					"subclassFeature": "Bend Magic|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2"
 				},
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "Flash of Insight|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|2"
+					"subclassFeature": "Flash of Insight|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2"
 				},
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "Quick Step|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|2"
+					"subclassFeature": "Quick Step|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2"
 				}
 			]
 		},	
@@ -1586,7 +1578,7 @@
 			"name": "Bend Magic",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1600,7 +1592,7 @@
 			"name": "Flash of Insight",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1614,7 +1606,7 @@
 			"name": "Quick Step",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1628,7 +1620,7 @@
 			"name": "Refined Learning",
 			"source": "A5E:Wizard",
 			"page": 115,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1637,15 +1629,15 @@
 				"At 6th level, you’ve developed an impressive expertise in spells of your chosen school. Choose one of the following benefits:",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Armor|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|6"
+					"subclassFeature": "Arcane Armor|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6"
 				},
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "Energy Retention|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|6"
+					"subclassFeature": "Energy Retention|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6"
 				},
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "War Magic|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|6"
+					"subclassFeature": "War Magic|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6"
 				}
 			]
 		},	
@@ -1653,7 +1645,7 @@
 			"name": "Arcane Armor",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1667,7 +1659,7 @@
 			"name": "Energy Retention",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1681,7 +1673,7 @@
 			"name": "War Magic",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1695,7 +1687,7 @@
 			"name": "Superior Talent",
 			"source": "A5E:Wizard",
 			"page": 115,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1704,15 +1696,15 @@
 				"At 10th level, you’ve discovered even greater ways to use your magic to your advantage. Choose one of the following benefits:",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Perfect Control|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|10"
+					"subclassFeature": "Perfect Control|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
 				},
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "Secondary Learning|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|10"
+					"subclassFeature": "Secondary Learning|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
 				},
                 {
 					"type": "refSubclassFeature",
-					"subclassFeature": "Splinter Spell|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|10"
+					"subclassFeature": "Splinter Spell|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
 				}
 			]
 		},	
@@ -1720,7 +1712,7 @@
 			"name": "Perfect Control",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1734,7 +1726,7 @@
 			"name": "Secondary Learning",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1748,7 +1740,7 @@
 			"name": "Splinter Spell",
 			"source": "A5E:Wizard",
 			"page": 116,
-			"className": "Wizard2",
+			"className": "LU Wizard",
 			"classSource": "A5E:Wizard",
 			"subclassShortName": "Arcanist",
 			"subclassSource": "A5E:Wizard",
@@ -1758,99 +1750,59 @@
 				"When you cast a wizard spell from your chosen school that only affects one creature, you can have it affect an additional creature within range. Once you have used this feature, you cannot do so again until you finish a short or long rest."
 			]
 		},		
-		{
-			"name": "School of Illusion",
-			"source": "PHB",
-			"page": 118,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Illusion",
-			"subclassSource": "PHB",
-			"level": 2,
+        {
+			"name": "Cleansing Fire",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
 			"entries": [
-				"You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists\u2014including many gnome wizards\u2014are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Illusion Savant|Wizard||Illusion||2"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Improved Minor Illusion|Wizard||Illusion||2"
-				}
+				"When you choose this archetype at 2nd level, you learn how to use flame to not just harm but heal. When you cast a spell of 1st-level or higher that deals fire damage, you can choose one creature that would take damage from the spell. Instead of taking damage from the spell, it is healed for a number of hit points equal to the spell’s level plus your proficiency bonus."
+			]
+		},	
+        {
+			"name": "Rituals of Fire",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
+			"entries": [
+				"Also at 2nd level, you can peer into flames to learn of what lies ahead. By spending 10 minutes meditating while staring into a flame that fills at least a 5-foot cube, you can cast {@spell augury} without spending any spell slots.",
+                "At 6th level, by burning an object with a connection to a creature and spending 10 minutes in meditation, you can cast locate creature in this way.",
+                "At 10th level, by creating a fire large enough to fully immerse yourself in and stepping into it (taking no damage), you can cast dream, with yourself as the messenger. If the fire goes out before you end the spell, you take 4d6 psychic damage and the spell ends. After casting it in this way, you cannot do so again until you finish a short or long rest."
 			]
 		},
-		{
-			"name": "Illusion Savant",
-			"source": "PHB",
-			"page": 118,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Illusion",
-			"subclassSource": "PHB",
-			"level": 2,
-			"header": 1,
+        {
+			"name": "Clinging Flames",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,			
 			"entries": [
-				"Beginning when you select this school at 2nd level, the gold and time you must spend to copy an illusion spell into your spellbook is halved."
+				"At 6th level, when you cast a spell that deals fire damage and forces a saving throw, creatures that fail their first saving throw against it suffer ongoing fire damage equal to your Intelligence modifier. At the start of each of its turns a creature repeats the saving throw, ending the ongoing fire damage on a success."
 			]
-		},
-		{
-			"name": "Improved Minor Illusion",
-			"source": "PHB",
-			"page": 118,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Illusion",
-			"subclassSource": "PHB",
-			"level": 2,
-			"header": 1,
+		},	
+        {
+			"name": "Blazing Mastery",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,			
 			"entries": [
-				"When you choose this school at 2nd level, you learn the {@spell minor illusion} cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.",
-				"When you cast {@spell minor illusion}, you can create both a sound and an image with a single casting of the spell."
+				"At 10th level, your flames can scorch even those typically resilient to them. Fire damage from your spells treats immunity to fire as though it were fire resistance, and ignores fire resistance entirely. Additionally, you gain resistance to fire damage, and you ignore fire damage dealt by your own spells."
 			]
-		},
-		{
-			"name": "Malleable Illusions",
-			"source": "PHB",
-			"page": 118,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Illusion",
-			"subclassSource": "PHB",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Starting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion."
-			]
-		},
-		{
-			"name": "Illusory Step",
-			"source": "PHB",
-			"page": 118,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Illusion",
-			"subclassSource": "PHB",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Beginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Illusory Reality",
-			"source": "PHB",
-			"page": 118,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Illusion",
-			"subclassSource": "PHB",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semireality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.",
-				"The object can't deal damage or otherwise directly harm anyone."
-			]
-		}		
+		}	
 	]
 }
