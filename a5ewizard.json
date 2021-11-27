@@ -855,7 +855,7 @@
 			"page": 118,	
 		
 			"subclassFeatures": [
-                "Schoolarly Speciality|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|2",				
+                "Cleansing Fire|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|2",				
                 "Rituals of Fire|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|2",
 				"Clinging Flames|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|6",
 				"Blazing Mastery|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|10"
@@ -869,7 +869,7 @@
 			"classSource": "A5E:Wizard",
 			"page": 118,			
 			"subclassFeatures": [
-				"Cleansing Fire|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2",
+				"Schoolarly Speciality|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2",
 				"Esoteric Talent|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2",
 				"Refined Learning|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6",
 				"Superior Talent|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
