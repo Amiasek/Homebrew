@@ -874,7 +874,22 @@
 				"Refined Learning|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6",
 				"Superior Talent|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
 			]
-		}		
+		},
+        {
+			"name": "Mage",
+			"shortName": "Mage",
+			"source": "A5E:Wizard",
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"page": 118,	
+		
+			"subclassFeatures": [
+                "Broad Knowledge|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|2",				
+                "Flexibe Thinking|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|2",
+				"Flux|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|6",
+				"Fluent Control|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|10"
+			]
+		},		
 	],
 	"classFeature": [
 		{
@@ -1802,6 +1817,98 @@
 			"level": 10,			
 			"entries": [
 				"At 10th level, your flames can scorch even those typically resilient to them. Fire damage from your spells treats immunity to fire as though it were fire resistance, and ignores fire resistance entirely. Additionally, you gain resistance to fire damage, and you ignore fire damage dealt by your own spells."
+			]
+		},
+        {
+			"name": "Broad Knowledge",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
+			"entries": [
+				"As a generalist, you have some basic competence in all schools of magic. At 2nd level when you choose this archetype, the cost of copying spells into your spellbook is reduced to 40 gold per level of the spell (instead of 50 gold)."
+			]
+		},
+        {
+			"name": "Flexible Thinking",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
+			"entries": [
+				"Also at 2nd level, you can use an action to replace one spell you have prepared with any other spell in your spellbook. You regain the ability to do so when you finish a short or long rest."
+			]
+		},
+        {
+			"name": "Flux",
+			"source": "A5E:Wizard",
+			"page": 115,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,
+			"entries": [
+				"At 10th level, you’ve discovered even greater ways to use your magic to your advantage. Choose one of the following benefits:",
+				{
+				"entries":[
+                    {
+                        "type":"entries",
+                        "name": "Ad Hoc Defense",
+                        "entries":[
+                            "When you take damage, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus"
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Elusive",
+                        "entries":[
+                            "You can use a bonus action to teleport 15 feet to a space you can see."
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Reactive Ward",
+                        "entries":[
+                            "When you make a saving throw, you can use your reaction to add your Intelligence modifier to the result. You may do so after the roll is made, but before any effects of it are resolved."
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Spell Intensity",
+                        "entries":[
+                            "When you deal damage with a spell, you can increase the first damage roll of that spell by an amount equal to your Intelligence modifier."
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Spell Shield",
+                        "entries":[
+                            "When you take damage from a spell or other magical effect, you can use your reaction to take half damage from it."
+                        ]
+                    }
+                ]
+				}
+			]
+		},	
+        {
+			"name": "Fluent Control",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,			
+			"entries": [
+				"At 10th level, you can use your Flexible Thinking feature as a bonus action (instead of an action).",
+                "In addition, you add your Intelligence modifier to Constitution saving throws made to maintain concentration on spells."
 			]
 		}	
 	]
