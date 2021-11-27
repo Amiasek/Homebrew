@@ -526,6 +526,7 @@
 				"Cantrip Formulas|Wizard||3|TCE",
                 "Scholarly Excellence|Wizard2|A5E:Wizard|3",
 				"Ability Score Improvement|Wizard||4",
+                "Elective Studies|Wizard2|A5E:Wizard|4",
 				"Proficiency Versatility|Wizard||4|UAClassFeatureVariants",
 				{
 					"classFeature": "Arcane Tradition feature|Wizard||6",
