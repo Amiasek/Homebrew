@@ -877,7 +877,7 @@
 			"classSource": "A5E:Wizard",
 			"page": 118,			
 			"subclassFeatures": [
-				"Schoolarly Speciality|Wizard2||Arcanist||2",
+				"Schoolarly Speciality|Wizard2|A5E:Wizard|Arcanist|A5E:Wizard|2",
 				"Malleable Illusions|Wizard||Illusion||6",
 				"Illusory Step|Wizard||Illusion||10",
 				"Illusory Reality|Wizard||Illusion||14"
