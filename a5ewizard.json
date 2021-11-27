@@ -516,7 +516,7 @@
 				}
 			],
 			"classFeatures": [
-				"Arcane Recovery|Wizard||1",
+				"Arcane Recovery|Wizard2|A5E:Wizard|1",
 				"Spellcasting|Wizard||1",
 				"Cantrip Versatility|Wizard||1|UAClassFeatureVariants",
 				{
@@ -1243,10 +1243,8 @@
 		{
 			"name": "Arcane Recovery",
 			"source": "PHB",
-			"page": 112,
-			"srd": true,
-			"className": "Wizard",
-			"classSource": "PHB",
+			"className": "Wizard2",
+			"classSource": "A5E",
 			"level": 1,
 			"entries": [
 				"Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th-level or higher.",
@@ -1431,7 +1429,7 @@
 			"source": "A5E:Wizard",
 			"page": 292,
 			"className": "Wizard2",
-			"classSource": "A5E:Wizard",
+			"classSource": "A5E",
 			"level": 3,
 			"isClassFeatureVariant": false,
 			"entries": [
