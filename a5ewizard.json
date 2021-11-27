@@ -1432,15 +1432,50 @@
 			"classSource": "A5E:Wizard",
 			"level": 3,
 			"entries": [				
-				"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.",
+				"At 3rd level, you have a particular set of skills that sets you a cut above a novice mage. Choose one of the following:",
                 {
 					"type": "refClassFeature",
-					"subclassFeature": "Arcane Recovery|Wizard2|A5E:Wizard|1"
+					"classFeature": "Academic|Wizard2|A5E:Wizard|3"
 				},
-				{
+                {
 					"type": "refClassFeature",
-					"subclassFeature": "Arcane Recovery|Wizard2|A5E:Wizard|1"
+					"classFeature": "Ritual Efficiency|Wizard2|A5E:Wizard|3"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Rote Memorization|Wizard2|A5E:Wizard|3"
 				}
+			]
+		},
+        {
+			"name": "Academic",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [
+				"You’ve got a whole lot of book smarts. Choose one from Arcana, History, Nature, and Religion. You gain an expertise die on checks using the chosen skill.",
+				"In addition, when you use the chosen skill to make a point, rather than relying on charm and persuasion, you can make an Intelligence check with the chosen skill instead of a Charisma check."
+			]
+		},
+        {
+			"name": "Ritual Efficiency",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [
+				"When you cast a spell as a ritual, you only add 1 minute to the casting time (instead of 10 minutes)."
+			]
+		},
+        {
+			"name": "Rote Memorization",
+			"source": "A5E:Wizard",			
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [
+				"Choose one cantrip which has a casting time of 1 action and doesn’t deal damage. You can cast that cantrip as a bonus action without any seen or material components a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you finish a long rest, and can switch the cantrip associated with this feature each time you gain a wizard level."
 			]
 		},
 		{
