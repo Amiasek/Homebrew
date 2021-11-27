@@ -1546,13 +1546,13 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "School of Abjuration",
-			"source": "PHB",
+			"name": "Schoolarly Speciality",
+			"source": "A5E:Wizard",
 			"page": 115,
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Abjuration",
-			"subclassSource": "PHB",
+			"className": "Wizard2",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
 			"level": 2,
 			"entries": [
 				"The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation.",
