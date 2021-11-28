@@ -1,0 +1,1916 @@
+{
+	"_meta": {
+		"dependencies": {
+			"subclass": [
+				"generic"
+			]
+		},
+        "sources": [
+            {
+                "json": "A5E:Wizard",
+                "abbreviation": "A5E:Wizard"
+            }
+        ]
+	},
+	"class": [
+		{
+			"name": "LU Wizard",
+			"source": "A5E:Wizard",
+			"page": 287,
+			"srd": false,
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$int_mod$>",
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"spellsKnownProgressionFixed": [
+				6,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2
+			],
+			"spellsKnownProgressionFixedAllowLowerLevel": true,
+			"startingProficiencies": {
+				"weapons": [
+					"{@item dagger|phb|daggers}",
+					"{@item dart|phb|darts}",
+					"{@item sling|phb|slings}",
+					"{@item quarterstaff|phb|quarterstaffs}"					
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"insight",
+								"investigation",
+								"medicine",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item quarterstaff|phb} or (b) a {@item dagger|phb}",
+					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"A {@item spellbook|phb}"
+				],
+				"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"quarterstaff|phb"
+						],
+						"b": [
+							"dagger|phb"
+						]
+					},
+					{
+						"a": [
+							"component pouch|phb"
+						],
+						"b": [
+							"arcane focus|phb"
+						]
+					},
+					{
+						"a": [
+							"scholar's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"spellbook|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"int": 13
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Wizard}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+                {
+					"colLabels": [
+						"Studies Known"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Wizard}",
+						"{@filter 2nd|spells|level=2|class=Wizard}",
+						"{@filter 3rd|spells|level=3|class=Wizard}",
+						"{@filter 4th|spells|level=4|class=Wizard}",
+						"{@filter 5th|spells|level=5|class=Wizard}",
+						"{@filter 6th|spells|level=6|class=Wizard}",
+						"{@filter 7th|spells|level=7|class=Wizard}",
+						"{@filter 8th|spells|level=8|class=Wizard}",
+						"{@filter 9th|spells|level=9|class=Wizard}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Arcane Recovery|LU Wizard|A5E:Wizard|1",
+				"Spellcasting|Wizard||1",
+				"Cantrip Versatility|Wizard||1|UAClassFeatureVariants",
+				{
+					"classFeature": "Arcane Tradition|LU Wizard|A5E:Wizard|2",
+					"gainSubclassFeature": true
+				},
+				"Cantrip Formulas|Wizard||3|TCE",
+                "Scholarly Excellence|LU Wizard|A5E:Wizard|3",
+				"Ability Score Improvement|Wizard||4",
+                "Elective Studies|LU Wizard|A5E:Wizard|4",
+				"Proficiency Versatility|Wizard||4|UAClassFeatureVariants",
+                "Signature Spell (1st level)|LU Wizard|A5E:Wizard|5",
+				{
+					"classFeature": "Arcane Tradition feature|Wizard||6",
+					"gainSubclassFeature": true
+				},
+                "Spell Study|LU Wizard|A5E:Wizard|7",
+				"Ability Score Improvement|Wizard||8",
+				"Proficiency Versatility|Wizard||8|UAClassFeatureVariants",
+				{
+					"classFeature": "Arcane Tradition feature|Wizard||10",
+					"gainSubclassFeature": true
+				},
+                "Signature Spell (2nd level)|LU Wizard|A5E:Wizard|11",
+				"Ability Score Improvement|Wizard||12",
+				"Proficiency Versatility|Wizard||12|UAClassFeatureVariants",
+				{
+					"classFeature": "Arcane Tradition feature|Wizard||14",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Wizard||16",
+				"Proficiency Versatility|Wizard||16|UAClassFeatureVariants",	
+                "Signature Spell (3rd level)|LU Wizard|A5E:Wizard|17",			
+				"Ability Score Improvement|Wizard||19",
+				"Proficiency Versatility|Wizard||19|UAClassFeatureVariants"				
+			],
+			"subclassTitle": "Arcane Tradition",
+			"fluff": [
+				{
+					"name": "Wizard",
+					"type": "section",
+					"entries": [
+						"Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.",
+						"Checking and rechecking his work, a human scribes an intricate magic circle in chalk on the bare stone floor, then sprinkles powdered iron along every line and graceful curve. When the circle is complete, he drones a long incantation. A hole opens in space inside the circle, bringing a whiff of brimstone from the otherworldly plane beyond.",
+						"Crouching on the floor in a dungeon intersection, a gnome tosses a handful of small bones inscribed with mystic symbols, muttering a few words of power over them. Closing his eyes to see the visions more clearly, he nods slowly, then opens his eyes and points down the passage to his left.",
+						"Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.",
+						{
+							"type": "entries",
+							"name": "Scholars of the Arcane",
+							"entries": [
+								"Wild and enigmatic, varied in form and function, the power of magic draws students who seek to master its mysteries. Some aspire to become like the gods, shaping reality itself. Though the casting of a typical spell requires merely the utterance of a few strange words, fleeting gestures, and sometimes a pinch or clump of exotic materials, these surface components barely hint at the expertise attained after years of apprenticeship and countless hours of study.",
+								"Wizards live and die by their spells. Everything else is secondary. They learn new spells as they experiment and grow in experience. They can also learn them from other wizards, from ancient tomes or inscriptions, and from ancient creatures (such as the fey) that are steeped in magic."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Lure of Knowledge",
+							"entries": [
+								"Wizards' lives are seldom mundane. The closest a wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination.",
+								"But the lure of knowledge and power calls even the most unadventurous wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Wizard",
+							"entries": [
+								"Creating a wizard character demands a backstory dominated by at least one extraordinary event. How did your character first come into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic?",
+								"What drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other wizard? Perhaps you're simply eager to put your newfound magical skills to the test in the face of danger.",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. If you plan to join the School of Enchantment, make Charisma your next-best score. Second, choose the {@background sage} background. Third, choose the {@spell mage hand}, {@spell light}, and {@spell ray of frost} cantrips, along with the following 1st-level spells for your spellbook: {@spell burning hands}, {@spell charm person}, {@spell feather fall}, {@spell mage armor}, {@spell magic missile}, and {@spell sleep}."
+									]
+								}
+							]
+						}
+					],
+					"page": 112,
+					"source": "PHB"
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"Wizardry requires understanding. The knowledge of how and why magic works, and our efforts to broaden that understanding, have brought about the key advances in civilization over the centuries."
+							],
+							"by": "Gimble the illusionist"
+						},
+						"Only a select few people in the world are wielders of magic. Of all those, wizards stand at the pinnacle of the craft. Even the least of them can manipulate forces that flout the laws of nature, and the most accomplished among them can cast spells with world-shaking effects.",
+						"The price that wizards pay for their mastery is that most valuable of commodities: time. It takes years of study, instruction, and experimentation to learn how to harness magical energy and carry spells around in one's own mind. For adventuring wizards and other spellcasters who aspire to the highest echelons of the profession, the studying never ends, nor does the quest for knowledge and power.",
+						"If you're playing a wizard, take advantage of the opportunity to make your character more than just a stereotypical spell-slinger. Use the advice that follows to add some intriguing details to how your wizard interacts with the world.",
+						{
+							"type": "entries",
+							"name": "Spellbook",
+							"entries": [
+								"Your wizard character's most prized possession\u2014your spellbook\u2014might be an innocuous-looking volume whose covers show no hint of what's inside. Or you might display some flair, as many wizards do, by carrying a spellbook of an unusual sort. If you don't own such an item already, one of your goals might be to find a spellbook that sets you apart by its appearance or its means of manufacture.",
+								{
+									"type": "table",
+									"caption": "Spellbooks",
+									"colLabels": [
+										"{@dice d6}",
+										"Spellbook"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"A tome with pages that are thin sheets of metal, spells etched into them with acid"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"Long straps of leather on which spells are written, wrapped around a staff for ease of transport"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"A battered tome filled with pictographs that only you can understand"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Small stones inscribed with spells and kept in a cloth bag"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"A scorched book, ravaged by dragon fire, with the script of your spells barely visible on its pages"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"A tome full of black pages whose writing is visible only in dim light or darkness"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ambition",
+							"entries": [
+								"Few aspiring wizards undertake the study of magic without some personal goal in mind. Many wizards use their spells as a tool to produce a tangible benefit, in material goods or in status, for themselves or their companions. For others, the theoretical aspect of magic might have a strong appeal, pushing those wizards to seek out knowledge that supports new theories of the arcane or confirms old ones.",
+								"Beyond the obvious, why does your wizard character study magic, and what do you want to achieve? If you haven't given these questions much thought, you can do so now, and the answers you come up with will likely affect how your future unfolds.",
+								{
+									"type": "table",
+									"caption": "Ambitions",
+									"colLabels": [
+										"{@dice d6}",
+										"Ambition"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"You will prove that the gods aren't as powerful as folk believe."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"Immortality is the end goal of your studies."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"If you can fully understand magic, you can unlock its use for all and usher in an era of equality."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Magic is a dangerous tool. You use it to protect what you treasure."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"Arcane power must be taken away from those who would abuse it."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"You will become the greatest wizard the world has seen in generations."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Eccentricity",
+							"entries": [
+								"Endless hours of solitary study and research can have a negative effect on anyone's social skills. Wizards, who are a breed apart to begin with, are no exception. An odd mannerism or two is not necessarily a drawback, though; an eccentricity of this sort is usually harmless and could provide a source of amusement or serve as a calling card of sorts.",
+								"If your character has an eccentricity, is it a physical tic or a mental one? Are you well known in some circles because of it? Do you fight to overcome it, or do you embrace this minor claim to fame of yours?",
+								{
+									"type": "table",
+									"caption": "Eccentricities",
+									"colLabels": [
+										"{@dice d6}",
+										"Eccentricity"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"You have the habit of tapping your foot incessantly, which often annoys those around you."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"Your memory is quite good, but you have no trouble pretending to be absentminded when it suits your purposes."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"You never enter a room without looking to see what's hanging from the ceiling."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Your most prized possession is a dead worm that you keep inside a potion vial."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"When you want people to leave you alone, you start talking to yourself. That usually does the trick."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"Your fashion sense and grooming, or more accurately lack thereof, sometimes cause others to assume you are a beggar."
+										]
+									]
+								}
+							]
+						}
+					],
+					"page": 58,
+					"source": "XGE"
+				}
+			]
+		}
+	],
+	"subclass": [		
+		{
+			"name": "Pyromancer",
+			"shortName": "Pyromancer",
+			"source": "A5E:Wizard",
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"page": 118,	
+		
+			"subclassFeatures": [
+                "Cleansing Fire|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|2",				
+                "Rituals of Fire|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|2",
+				"Clinging Flames|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|6",
+				"Blazing Mastery|LU Wizard|A5E:Wizard|Pyromancer|A5E:Wizard|10"
+			]
+		},
+        {
+			"name": "Arcanist",
+			"shortName": "Arcanist",
+			"source": "A5E:Wizard",
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"page": 118,			
+			"subclassFeatures": [
+				"Schoolarly Speciality|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2",
+				"Esoteric Talent|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2",
+				"Refined Learning|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6",
+				"Superior Talent|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
+			]
+		},
+        {
+			"name": "Mage",
+			"shortName": "Mage",
+			"source": "A5E:Wizard",
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"page": 118,	
+		
+			"subclassFeatures": [
+                "Broad Knowledge|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|2",				
+                "Flexible Thinking|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|2",
+				"Flux|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|6",
+				"Fluent Control|LU Wizard|A5E:Wizard|Mage|A5E:Wizard|10"
+			]
+		}		
+	],
+	"classFeature": [
+		{
+			"name": "Arcane Recovery",
+			"source": "A5E:Wizard",
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 1,
+			"entries": [
+				"Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th-level or higher.",
+				"For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots.",
+				"You can recover either a 2nd-level spell slot or two 1st-level spell slots."
+			]
+		},
+		{
+			"name": "Cantrip Versatility",
+			"source": "UAClassFeatureVariants",
+			"page": 12,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 1,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 1st-level wizard feature (enhances Spellcasting)}",
+				"Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the wizard spell list."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=wizard}.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellbook",
+					"entries": [
+						"At 1st level, you have a spellbook containing six 1st-level {@filter wizard spells|spells|class=wizard} of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell {@spell magic missile}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Intelligence is your spellcasting ability for your wizard spells, since you learn your wizard spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use an {@item arcane focus|phb} as a spellcasting focus for your wizard spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Learning Spells of 1st Level and Higher",
+					"entries": [
+						"Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see \"Your Spellbook\")."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Your Spellbook",
+					"entries": [
+						"The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.",
+						"A spellbook doesn't contain cantrips.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Copying a Spell into the Book",
+									"entries": [
+										"When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.",
+										"Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.",
+										"For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.",
+										{
+											"type": "entries",
+											"name": "Copying from a Spell Scroll",
+											"source": "DMG",
+											"page": 139,
+											"entries": [
+												"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence ({@skill Arcana}) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Replacing the Book",
+									"entries": [
+										"You can copy a spell from your own spellbook into another book\u2014for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.",
+										"If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "The Book's Appearance",
+									"entries": [
+										"Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Tradition",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 2,
+			"entries": [
+				"When you reach 2nd level, you choose an arcane tradition from the list of available traditions, shaping your practice of magic. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+			]
+		},
+		{
+			"name": "Cantrip Formulas",
+			"source": "TCE",
+			"page": 75,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 3rd-level wizard {@variantrule optional class features|tce|optional feature}}",
+				"You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list."
+			]
+		},
+        {
+			"name": "Scholarly Excellence",
+			"source": "A5E:Wizard",
+			"page": 292,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [				
+				"At 3rd level, you have a particular set of skills that sets you a cut above a novice mage. Choose one of the following:",
+                {
+					"type": "refClassFeature",
+					"classFeature": "Academic|LU Wizard|A5E:Wizard|3"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Ritual Efficiency|LU Wizard|A5E:Wizard|3"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Rote Memorization|LU Wizard|A5E:Wizard|3"
+				}
+			]
+		},
+        {
+			"name": "Academic",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [
+				"You’ve got a whole lot of book smarts. Choose one from Arcana, History, Nature, and Religion. You gain an expertise die on checks using the chosen skill.",
+				"In addition, when you use the chosen skill to make a point, rather than relying on charm and persuasion, you can make an Intelligence check with the chosen skill instead of a Charisma check."
+			]
+		},
+        {
+			"name": "Ritual Efficiency",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [
+				"When you cast a spell as a ritual, you only add 1 minute to the casting time (instead of 10 minutes)."
+			]
+		},
+        {
+			"name": "Rote Memorization",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 3,
+			"entries": [
+				"Choose one cantrip which has a casting time of 1 action and doesn’t deal damage. You can cast that cantrip as a bonus action without any seen or material components a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you finish a long rest, and can switch the cantrip associated with this feature each time you gain a wizard level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+        {
+			"name": "Elective Studies",
+			"source": "A5E:Wizard",
+			"page": 292,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [				
+				"Your study of magic has uncovered unique ways to explore the world. At 4th level you gain one elective study of your choice.", 
+                "The Studies Known column of the Wizard table shows when you learn more elective studies. Unless otherwise noted, you can gain each study only once.",
+                {
+					"type": "refClassFeature",
+					"classFeature": "Air Lift|LU Wizard|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Detect Magic Savant|LU Wizard|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Eidetic Memory|LU Wizard|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Illusion Detective|LU Wizard|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Loremaster of Creatures|LU Wizard|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Loremaster of Travel|LU Wizard|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Persisitng Mending|LU Wizard|A5E:Wizard|4"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Presto, Prestidigitation!|LU Wizard|A5E:Wizard|4"
+				}
+			]
+		},
+        {
+			"name": "Air Lift",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"You can use an action to increase your vertical jump distance to 15 feet until the end of your turn. When you jump in this way, you can also glide with the updraft, allowing you to move 10 feet horizontally for every 5 feet you descend vertically."
+			]
+		},
+        {
+			"name": "Detect Magic Savant",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"Prerequisite: Able to cast {@spell detect magic}",
+                "Whenever you cast detect magic, you can choose one of the following benefits to amplify the spell.",
+                {
+                    "type":"list",
+                    "items":[
+                        "Lengthened Detect Magic. The duration of detect magic is increased by 10 minutes.",
+                        "Extended Detect Magic. The detection radius of detect magic is increased by 30 feet.",
+                        "Penetrating Detect Magic. The spell can penetrate most barriers, and it is only blocked by 2 feet of stone, 2 inches of common metal, a 1-inch sheet of lead, or 6 feet of wood or dirt."
+                    ]
+                }             
+			]
+		},
+        {
+			"name": "Eidetic Memory",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"Your memory is nearly perfect. You can accurately recall anything you’ve read or seen in the past month. Additionally, when retreading a travel route you’ve traveled in the past month, you have advantage on ability checks made against environmental hazards on that route, unless the landscape has been significantly altered in that time."
+			]
+		},
+        {
+			"name": "Illusion Detective",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+                "Prerequisite: At least one illusion spell in your spellbook.",
+                "You have advantage on Investigation checks and Intelligence saving throws made against illusion. When you succeed on an ability check or saving throw to see through an illusion, all allies within 30 feet of you gain advantage on checks to see through that illusion for the next minute."
+			]
+		},
+        {
+			"name": "Loremaster of Creatures",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"You are well-studied on naturally occurring creatures of the world. When you choose this study, choose one creature type: beasts, constructs, dragons, elementals, fey, fiends, giants, oozes, plants, or undead. This creature type becomes your Loremaster Creature Specialty.", 
+                "When you encounter a creature of the same type as your Loremaster Creature Specialty, you automatically know any history, legends, or myths related to it. You have advantage on History checks to recall information, myths, and legends that are related to that creature."
+			]
+		},
+        {
+			"name": "Loremaster of Travel",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"You are well-travelled and well-studied. You have advantage on History checks to recall information relating to myths and legends that are location-based. In addition, when you arrive at a settlement for the first time, choose one of the following subjects: culture, etiquette, government, or populace.",
+                "The Narrator will give you a useful fact about that subject. You can take an expertise die on ability checks related to that subject in this settlement."
+			]
+		},
+        {
+			"name": "Persisitng Mending",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"Prerequisite: Able to cast {@spell mending}",
+                "When you finish a long rest, choose up to 6 creatures who rested with you, including yourself. Choose one piece of their equipment to enchant with a persistent mending effect. The chosen item instantly fixes itself if it becomes damaged. If you choose an item from the following list, it also grants an additional benefit. This effect lasts for 12 hours.",
+                {
+                    "type": "list",
+                    "items":[
+                        "Coat. Choose either hot or cold weather. The creature gains an expertise die on Constitution saving throws made to resist the effect of that kind of weather.",
+                        "Goggles. The creature’s vision can never be reduced to less than 20 feet due to inclement weather.",
+                        "Shoes. The creature gains an expertise die on Constitution saving throws made to undertake a forced march."
+                    ]
+                }             
+			]
+		},
+        {
+			"name": "Presto, Prestidigitation!",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 4,
+			"entries": [
+				"Prerequisite: Able to cast {@spell prestidigitation}",
+                "If you are not actively casting prestidigitation or concentrating on a spell, the magic of prestidigitation is always keeping you, your clothes, and your gear sparkling clean.",
+                "The following effects are added to the list of options you can choose from when you cast prestidigitation.",
+                {
+                    "type": "list",
+                    "items": [      
+                             "You transmute a small piece of string in your hands into a sturdy 30-foot long rope. For the duration, it functions as a regular hempen rope.",
+                             "Using the heads side of a coin like a lens, you can hold the coin over one of your closed eyes and see through it. While looking through the coin in this way, you gain darkvision to a range of 30 feet. The coin’s darkvision effect ends when the spell ends.",
+                             "A pebble becomes a sensor that you can use to see through. For the duration as long as the pebble is within 10 feet, you can use an action to see whatever is within 30 feet of the pebble. While seeing through the pebble, you are blinded and deafened with regard to your own senses.",
+                             "On a piece of parchment or paper, you can create an exact copy of another piece of parchment or paper, including any writing, drawings, or other markings that appear on the original. The paper does not change size to accommodate any differences in size between the two. The copy you create lasts for the duration of this spell, and disappears when the spell ends."      
+                    ]
+                }
+			]
+		}, 
+		{
+			"name": "Proficiency Versatility",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."               
+			]
+		},
+        {
+			"name": "Signature Spell (1st level)",
+			"source": "A5E:Wizard",
+			"page": 292,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 5,
+			"entries": [				
+				"At 5th level, you have developed your spellcasting skill and honed it into spells that you consider to be your Signature Spells.",
+                "Choose one 1st-level wizard spell that is in your spellbook. You always have this spell prepared, it doesn’t count toward your maximum prepared spells, and you can cast this spell at its lowest level without expending a spell slot. If you want to cast it at a higher level, you must expend a spell slot as normal. Once you have cast a Signature Spell in this way, you must finish a short or long rest before you can do so again.",
+                "At higher levels, you gain additional Signature Spells, each of which you can cast once between rests. At 11th level, you can choose one 2nd-level Signature Spell. At 17th level, you can choose one 3rd-level Signature Spell. Each time you gain a level in this class, you can replace one of your Signature Spells with another of the same level."
+            ]
+		},
+        {
+			"name": "Signature Spell (2nd level)",
+			"source": "A5E:Wizard",
+			"page": 292,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 11,
+			"entries": [
+                "Choose one 2nd-level wizard spell that is in your spellbook. You always have this spell prepared, it doesn’t count toward your maximum prepared spells, and you can cast this spell at its lowest level without expending a spell slot. If you want to cast it at a higher level, you must expend a spell slot as normal. Once you have cast a Signature Spell in this way, you must finish a short or long rest before you can do so again.",
+                "At higher levels, you gain additional Signature Spells, each of which you can cast once between rests. At 11th level, you can choose one 2nd-level Signature Spell. At 17th level, you can choose one 3rd-level Signature Spell. Each time you gain a level in this class, you can replace one of your Signature Spells with another of the same level."
+            ]
+		},
+        {
+			"name": "Signature Spell (3rd level)",
+			"source": "A5E:Wizard",
+			"page": 292,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 17,
+			"entries": [
+                "Choose one 3rd-level wizard spell that is in your spellbook. You always have this spell prepared, it doesn’t count toward your maximum prepared spells, and you can cast this spell at its lowest level without expending a spell slot. If you want to cast it at a higher level, you must expend a spell slot as normal. Once you have cast a Signature Spell in this way, you must finish a short or long rest before you can do so again.",
+                "At higher levels, you gain additional Signature Spells, each of which you can cast once between rests. At 11th level, you can choose one 2nd-level Signature Spell. At 17th level, you can choose one 3rd-level Signature Spell. Each time you gain a level in this class, you can replace one of your Signature Spells with another of the same level."
+            ]
+		},
+        {
+			"name": "Arcane Tradition feature",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Arcane Tradition."
+			]
+		},
+        {
+			"name": "Spell Study",
+			"source": "A5E:Wizard",
+			"page": 292,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 7,
+			"entries": [
+                "At 7th level, you learn to hone your magic and spells to new power levels thanks to your dedicated studies. Choose one Spell Study that reflects what you have dedicated your arcane studies to. ",
+                {
+					"type": "refClassFeature",
+					"classFeature": "Arcane Objects|LU Wizard|A5E:Wizard|7"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Detective Spell Study|LU Wizard|A5E:Wizard|7"
+				},
+                {
+					"type": "refClassFeature",
+					"classFeature": "Fauna and Flora|LU Wizard|A5E:Wizard|7"
+				}
+            ]
+		},
+        {
+			"name": "Arcane Objects",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 7,
+			"entries": [
+				"When you touch a magic item, either willingly or when hit by it, you are immediately aware that it’s magical. If you hold such an item in your hand, you can cast identify on it as an action without spending a spell slot, even if you don’t have the spell prepared.",
+                "In addition, when you cast identify using a spell slot or as a ritual, you also learn if the item is cursed, and the Narrator will give you a hint as to the curse’s effects (which may be cryptic and vague, but must not be a lie)."
+			]
+		},
+        {
+			"name": "Detective Spell Study",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 7,
+			"entries": [
+				"You are adept at sensing magic and its effects. If there are active magical effects near you, such as a spell effect on an object or a spell effect in an area, you automatically sense its presence. You don’t know what spell effects there are or where they are, but you can automatically sense the effect of magic in a 20-foot radius around you.",
+                "In addition, you have honed your detection spells. Add detect magic and detect thoughts to your spellbook if they weren’t already there. Whenever you cast detect magic, the range that you can sense magic is increased to 60 feet. Whenever you cast detect thoughts, the range of creatures that you can read thoughts from is increased to 60 feet."
+			]
+		},
+        {
+			"name": "Fauna and Flora",
+			"source": "A5E:Wizard",			
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"level": 7,
+			"entries": [
+				" Your research into plants, wildlife, and the natural workings of magic grants you superior insights into the magic of living creatures and flora. When a plant or beast makes a saving throw against a spell that you cast, it makes the saving throw with disadvantage."
+                
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Proficiency Versatility",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 8th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Arcane Tradition feature",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Arcane Tradition."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Proficiency Versatility",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 12,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 12th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Arcane Tradition feature",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature granted by your Arcane Tradition."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Proficiency Versatility",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 16,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 16th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 112,
+			"srd": true,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Proficiency Versatility",
+			"source": "UAClassFeatureVariants",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"level": 19,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 19th-level feature (enhances Ability Score Improvement)}",
+				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+				"This change represents one of your skills atrophying as you focus on a different skill."
+			]
+		}	
+	],
+	"subclassFeature": [
+		{
+			"name": "Schoolarly Speciality",
+			"source": "A5E:Wizard",
+			"page": 115,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,
+			"entries": [
+				"When you choose this archetype at 2nd level, choose one classical school of magic as your Scholarly Specialty: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. The gold and time you must spend to copy spells from this school into your spellbook is halved. If a feature refers to your chosen school, it refers to the school selected in this feature."
+				
+			]
+		},		
+        {
+			"name": "Esoteric Talent",
+			"source": "A5E:Wizard",
+			"page": 115,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,
+			"entries": [
+				"Also at 2nd level, you gain one of the following benefits, which represents a minor talent you’ve picked up over the course of your studies.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bend Magic|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flash of Insight|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Quick Step|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|2"
+				}
+			]
+		},	
+        {
+			"name": "Bend Magic",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"When you cast a wizard spell that deals damage to an area, you can choose a number of creatures equal to your Intelligence modifier in the area that you can see. The chosen creatures take no damage from the spell."
+			]
+		},
+        {
+			"name": "Flash of Insight",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"You can use a bonus action to roll a d20, record the result, and choose a creature you can see within 30 feet. The next time that creature makes an ability check, attack roll, or saving throw, it takes that d20 result instead of rolling. If you use this feature again before finishing a short rest, you must sacrifice a spell slot of 1st-level or higher to do so."
+			]
+		},
+        {
+			"name": "Quick Step",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"After you cast a wizard spell of 1st-level or higher, you can immediately move up to 15 feet without provoking opportunity attacks or spending any of your normal movement."
+			]
+		},
+        {
+			"name": "Refined Learning",
+			"source": "A5E:Wizard",
+			"page": 115,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,
+			"entries": [
+				"At 6th level, you’ve developed an impressive expertise in spells of your chosen school. Choose one of the following benefits:",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Armor|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Energy Retention|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "War Magic|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|6"
+				}
+			]
+		},	
+        {
+			"name": "Arcane Armor",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you cast a wizard spell of 1st-level or higher, you store some of its magic to protect yourself, gaining temporary hit points equal to twice the level of the spell, or three times the spell’s level if the spell is from your chosen school. Instead of gaining these temporary hit points yourself, you can use your reaction to grant them to a creature within 30 feet."
+			]
+		},	
+        {
+			"name": "Energy Retention",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you expend a spell slot of 2nd-level or higher to cast a wizard spell from your chosen school, you regain one expended spell slot. The regained spell slot must be of a level no more than half the level of the expended spell slot."
+			]
+		},
+        {
+			"name": "War Magic",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you deal damage with a wizard spell from your chosen school, you deal additional damage equal to your Intelligence modifier on the first damage roll for that spell."
+			]
+		},
+        {
+			"name": "Superior Talent",
+			"source": "A5E:Wizard",
+			"page": 115,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,
+			"entries": [
+				"At 10th level, you’ve discovered even greater ways to use your magic to your advantage. Choose one of the following benefits:",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Perfect Control|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Secondary Learning|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Splinter Spell|LU Wizard|A5E:Wizard|Arcanist|A5E:Wizard|10"
+				}
+			]
+		},	
+        {
+			"name": "Perfect Control",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"When concentrating on a wizard spell of your chosen school, you only need to roll to maintain concentration when you take damage from an attack, effect, or spell equal to or greater than your Intelligence score + your wizard level."
+			]
+		},	
+        {
+			"name": "Secondary Learning",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"Choose a second school to count as your Scholarly Specialty, and an additional feature from either Esoteric Talent or Refined Learning."
+			]
+		},
+        {
+			"name": "Splinter Spell",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Arcanist",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"When you cast a wizard spell from your chosen school that only affects one creature, you can have it affect an additional creature within range. Once you have used this feature, you cannot do so again until you finish a short or long rest."
+			]
+		},		
+        {
+			"name": "Cleansing Fire",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Pyromancer",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
+			"entries": [
+				"When you choose this archetype at 2nd level, you learn how to use flame to not just harm but heal. When you cast a spell of 1st-level or higher that deals fire damage, you can choose one creature that would take damage from the spell. Instead of taking damage from the spell, it is healed for a number of hit points equal to the spell’s level plus your proficiency bonus."
+			]
+		},	
+        {
+			"name": "Rituals of Fire",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Pyromancer",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
+			"entries": [
+				"Also at 2nd level, you can peer into flames to learn of what lies ahead. By spending 10 minutes meditating while staring into a flame that fills at least a 5-foot cube, you can cast {@spell augury} without spending any spell slots.",
+                "At 6th level, by burning an object with a connection to a creature and spending 10 minutes in meditation, you can cast locate creature in this way.",
+                "At 10th level, by creating a fire large enough to fully immerse yourself in and stepping into it (taking no damage), you can cast dream, with yourself as the messenger. If the fire goes out before you end the spell, you take 4d6 psychic damage and the spell ends. After casting it in this way, you cannot do so again until you finish a short or long rest."
+			]
+		},
+        {
+			"name": "Clinging Flames",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Pyromancer",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,			
+			"entries": [
+				"At 6th level, when you cast a spell that deals fire damage and forces a saving throw, creatures that fail their first saving throw against it suffer ongoing fire damage equal to your Intelligence modifier. At the start of each of its turns a creature repeats the saving throw, ending the ongoing fire damage on a success."
+			]
+		},	
+        {
+			"name": "Blazing Mastery",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Pyromancer",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,			
+			"entries": [
+				"At 10th level, your flames can scorch even those typically resilient to them. Fire damage from your spells treats immunity to fire as though it were fire resistance, and ignores fire resistance entirely. Additionally, you gain resistance to fire damage, and you ignore fire damage dealt by your own spells."
+			]
+		},
+        {
+			"name": "Broad Knowledge",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
+			"entries": [
+				"As a generalist, you have some basic competence in all schools of magic. At 2nd level when you choose this archetype, the cost of copying spells into your spellbook is reduced to 40 gold per level of the spell (instead of 50 gold)."
+			]
+		},
+        {
+			"name": "Flexible Thinking",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 2,			
+			"entries": [
+				"Also at 2nd level, you can use an action to replace one spell you have prepared with any other spell in your spellbook. You regain the ability to do so when you finish a short or long rest."
+			]
+		},
+        {
+			"name": "Flux",
+			"source": "A5E:Wizard",
+			"page": 115,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain the ability to bend your magic in flexible, constantly-changing ways. When you finish a short or long rest, you can choose a benefit from the following list. You can expend your Flux to use that benefit.",
+                "When you cast a spell of 1st-level or higher, you can change your benefit to a different one—doing so recharges your Flux. Your Flux also recharges when you finish a short or long rest.",
+				{
+				"entries":[
+                    {
+                        "type":"entries",
+                        "name": "Ad Hoc Defense",
+                        "entries":[
+                            "When you take damage, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus"
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Elusive",
+                        "entries":[
+                            "You can use a bonus action to teleport 15 feet to a space you can see."
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Reactive Ward",
+                        "entries":[
+                            "When you make a saving throw, you can use your reaction to add your Intelligence modifier to the result. You may do so after the roll is made, but before any effects of it are resolved."
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Spell Intensity",
+                        "entries":[
+                            "When you deal damage with a spell, you can increase the first damage roll of that spell by an amount equal to your Intelligence modifier."
+                        ]
+                    },
+                    {
+                        "type":"entries",
+                        "name": "Spell Shield",
+                        "entries":[
+                            "When you take damage from a spell or other magical effect, you can use your reaction to take half damage from it."
+                        ]
+                    }
+                ]
+				}
+			]
+		},	
+        {
+			"name": "Fluent Control",
+			"source": "A5E:Wizard",
+			"page": 116,
+			"className": "LU Wizard",
+			"classSource": "A5E:Wizard",
+			"subclassShortName": "Mage",
+			"subclassSource": "A5E:Wizard",
+			"level": 10,			
+			"entries": [
+				"At 10th level, you can use your Flexible Thinking feature as a bonus action (instead of an action).",
+                "In addition, you add your Intelligence modifier to Constitution saving throws made to maintain concentration on spells."
+			]
+		}	
+	]
+}
